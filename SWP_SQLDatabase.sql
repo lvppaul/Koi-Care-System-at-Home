@@ -9,7 +9,7 @@ CREATE TABLE [User] (
     UserName VARCHAR(50) NOT NULL,    -- User's username
     FullName NVARCHAR(200) NOT NULL,  -- User's full name
     Pass VARCHAR(50) NOT NULL,        -- User's password (consider using hashing for better security)
-    Phone VARCHAR(50) NOT NULL,       -- User's phone number
+    Phone VARCHAR(20) NOT NULL,       -- User's phone number
     Sex VARCHAR(10) NOT NULL,         -- User's gender
     Email NVARCHAR(200) NOT NULL,     -- User's email
     Street NVARCHAR(50) NOT NULL,     -- Street address
