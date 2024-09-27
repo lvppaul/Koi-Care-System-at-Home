@@ -193,7 +193,7 @@ CREATE TABLE Orders (
     UserID NVARCHAR(50) NOT NULL,
     ShopID int NOT NULL,
     FullName nvarchar(200) NOT NULL,
-    Phone varchar(50) NOT NULL,
+    Phone varchar(20) NOT NULL,
     OrderDate date NOT NULL,
     Email varchar(200) NOT NULL,
     Street nvarchar(50) NOT NULL,
